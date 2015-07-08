@@ -1,0 +1,20 @@
+{
+  "name": "immutable-performance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "static",
+    "vanilla": "browserify vanilla.js > out/vanilla.js",
+    "mori": "browserify mori.js > out/mori.js",
+    "immutable": "browserify immutable.js > out/immutable.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^10.2.4",
+    "immutable": "^3.7.4",
+    "mori": "^0.3.2"
+  }
+}
